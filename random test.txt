@@ -1,0 +1,86 @@
+import random
+def custimize():
+    guestin1=random.randit(1,1000 )
+    guestin2=random.randit( 1,1000)
+    guestin3=random.randit( 1,1000)
+    guestin4=random.randit( 1,1000)
+    guestin5=random.randit( 1,1000)
+    guestin6=random.randit( 1,1000)
+    guestin7=random.randit( 1,1000)
+    guestin8=random.randit( 1,1000)
+    guestin9=random.randit( 1,1000)
+    guestin10=random.randit(1,1000 )
+    guestin11=random.randit( 1,1000)
+    guestin12=random.randit( 1,1000)
+    guestin13=random.randit( 1,1000)
+    guestin14=random.randit( 1,1000)
+    guestin15=random.randit( 1,1000)
+    guestin16=random.randit( 1,1000)
+    guestin17=random.randit( 1,1000)
+    guestin18=random.randit( 1,1000)
+    guestin19=random.randit(1,1000 )
+    guestin20=random.randit(1,1000 )
+    x=0
+    int(x)
+    key=guestin1*guestin2
+    z=float(input(f"{guestin1} x {guestin2}"))
+    if z == float(key):
+        x=2
+    key1=guestin3*guestin4
+    c=float(input(f"{guestin3} x {guestin4}"))
+    if c == float(key1):
+        x=3
+    key2=guestin5*guestin6
+    a=int(input(f"{guestin5} x {guestin6}"))
+    if a == int(key2):
+        x=4
+    key3=guestin7*guestin8
+    b=int(input(f"{guestin7} x {guestin8}))
+    if b == int(key3):
+        x=5
+    key4=questin9*questin10
+    n=int(input(f"{questin9} x {guestin10}"))
+    if n == int(key4):
+        x=6
+    key4=guestin1*guestin2
+    z=float(input(f"{guestin1} x {guestin2}"))
+    if z == float(key4):
+        x=2
+    key5=guestin11*guestin12
+    v=int(input(f"{questin}"))
+    if v == int(key5):
+        x=7
+    key6=guestin13*guestin14
+    l=int(input(f"{guestin13}x{guestin14}"))
+    if l == int(key6):
+        x=8
+    
+    p=int(input(guestin15))
+    if p == int(guestin16):
+        x=9
+
+    j=int(input(guestin17))
+    if j == int(guestin18):
+        x=9
+
+    y=int(input(guestin19))
+    if y == int(guestin20):
+        x=10
+    password=input("whats the password? ")
+    if password=="abc123719":
+        if  9<= x:
+            print("your score is an A")
+        elif 8== x:
+            print("your score is a B")
+        elif  7== x:
+            print("your score is a C")
+        elif 6== x:
+            print("your score is a D")
+        else:
+            print("your score is a F")
+password=input("whats the password? ")
+if password=="abc123719":
+    custimize()
+else:
+    print("wrong")
+
